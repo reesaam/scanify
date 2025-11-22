@@ -3,12 +3,16 @@
   Scanify Document Scanner
 </p>
 <p align="center">
+  <!-- Scanify on pub.dev -->
+  <a href="https://pub.dev/packages/scanify"><img src="https://img.shields.io/badge/pub-Scanify_on_pub.dev-blue?logo=dart" alt="Pub"></a>
+  <!-- GitHub Repo -->
+  <a href="https://github.com/reesaam/scanify"><img src="https://img.shields.io/badge/repo-Scanify_Document_Scanner-yellowgreen?logo=github" alt="build"></a>
+</p>
+<p align="center">
   <!-- Pub Version -->
   <a href="https://pub.dev/packages/scanify"><img src="https://img.shields.io/pub/v/scanify?logo=dart" alt="PubVersion"></a>
   <!-- Pub Points} -->
   <a href="https://pub.dev/packages/scanify"><img src="https://img.shields.io/pub/points/scanify?logo=dart" alt="PubPoints"></a>
-  <!-- GitHub Repo -->
-  <a href="https://github.com/reesaam/scanify"><img src="https://img.shields.io/badge/repo-Scanify_Document_Scanner-yellowgreen?logo=github" alt="build"></a>
   <!-- GitHub Stars -->
   <a href="https://github.com/reesaam/scanify"><img src="https://img.shields.io/github/stars/felangel/bloc.svg?style=flat&logo=github&colorB=deeppink&label=stars" alt="Star on Github"></a>
   <!-- DartDoc -->
@@ -17,13 +21,17 @@
 <p align="center">
   <a href="https://github.com/reesaam/scanify"><img src="https://img.shields.io/badge/Android-black?logo=android" alt="android"></a>
   <a href="https://github.com/reesaam/scanify"><img src="https://img.shields.io/badge/iOS-black?logo=apple" alt="ios"></a>
-  <a href="https://github.com/reesaam/scanify"><img src="https://img.shields.io/badge/Web-black" alt="ios"></a>
+  <a href="https://github.com/reesaam/scanify"><img src="https://img.shields.io/badge/Web-black?logo=web" alt="web"></a>
   <a href="https://github.com/reesaam/scanify"><img src="https://img.shields.io/badge/Linux-black?logo=linux" alt="linux"></a>
-  <a href="https://github.com/reesaam/scanify"><img src="https://img.shields.io/badge/Windows-black" alt="windows"></a>
+  <a href="https://github.com/reesaam/scanify"><img src="https://img.shields.io/badge/Windows-black?logo=windows" alt="windows"></a>
   <a href="https://github.com/reesaam/scanify"><img src="https://img.shields.io/badge/MacOS-black?logo=apple" alt="mac-os"></a>
 </p>
 
-A Flutter Package to Scan Document on WEB.
+<p align="center">
+  <a href="https://pub.dev/packages/scanify_web"><img src="https://img.shields.io/badge/pub-Scanify_Web_on_pub.dev-blue?logo=dart" alt="Pub"></a>
+</p>
+
+A Flutter Package to Scan Document.
 
 ### Contents:
 * [Getting Started](#Getting-Started)
