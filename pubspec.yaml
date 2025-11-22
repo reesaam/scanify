@@ -1,0 +1,69 @@
+name: scanify
+description: "Scanify Document Scanner"
+version: 0.0.1
+homepage: https://resam.site
+repository: https://github.com/reesaam/scanify.git
+funding:
+  - https://resam.site
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  web: ^1.0.0
+  plugin_platform_interface: ^2.0.2
+
+  camera: ^0.11.2+1
+  image: ^4.5.4
+  permission_handler: ^12.0.1
+  dartz: ^0.10.1
+  #  dartdoc: ^8.3.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  # This section identifies this Flutter project as a plugin project.
+  # The 'pluginClass' specifies the class (in Java, Kotlin, Swift, Objective-C, etc.)
+  # which should be registered in the plugin registry. This is required for
+  # using method channels.
+  # The Android 'package' specifies package in which the registered class is.
+  # This is required for using method channels on Android.
+  # The 'ffiPlugin' specifies that native code should be built and bundled.
+  # This is required for using `dart:ffi`.
+  # All these are used by the tooling to maintain consistency when
+  # adding or updating assets for this project.
+  plugin:
+    platforms:
+      android:
+        package: site.resam.scanify.scanify
+        pluginClass: ScanifyPlugin
+      ios:
+        pluginClass: ScanifyPlugin
+      linux:
+        pluginClass: ScanifyPlugin
+      macos:
+        pluginClass: ScanifyPlugin
+      windows:
+        pluginClass: ScanifyPluginCApi
+      web:
+        pluginClass: ScanifyWeb
+        fileName: scanify_web.dart
+
+  assets:
+    - assets/
